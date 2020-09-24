@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Gitta Patchwork</title>
-
     <!-- Bootstrap -->
     <link
       rel="stylesheet"
@@ -14,6 +13,8 @@
       integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
       crossorigin="anonymous"
     />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,29 +26,28 @@
   <body style="background-color: #fcf8f5">
     <div class="container">
       <div class="page-header">
-        <h1 style="color: #541b01">Szilágyi Gitta</h1>
+        <h1 style="color: #541b01">Szilágyi Gitta <a href="https://www.facebook.com/gitta.szilagyi" class="pull-right"><i style="font-size:24px" class="fa">&#xf082;</i></a></h1>
         <p>Üdvözlünk ezen a virtuális patchwork kiállításon!</p>
       </div>
       <div class="container">
-        <figure class="figure">
+      <figure class="figure text-center">
           <h4>Karácsonyfák kékben</h4>
           <img
+            class="figure-img, img-fluid"
             src="img/kari.png"
-            class="img-thumbnail"
             alt="Responsive image"
+            style="border-radius: 1%; max-width: 100%;"
           />
-        <figcaption class="figure-caption">
+        <figcaption class="figure-caption text-center">
           <p>
             <a
-              class="btn btn-primary"
               data-toggle="collapse"
               href="#collapseKari"
-              role="button"
               aria-expanded="false"
               aria-controls="collapseKari"
-              style="background-color: #541b01"
+              style="color: #541b01"
             >
-              Részletek
+            <i class="material-icons">&#xe5d3;</i>
             </a>
           </p>
           <div class="collapse" id="collapseKari">
@@ -55,33 +55,33 @@
               (64x80 cm)
               <img
                 src="img/kari_r.png"
-                class="img-thumbnail"
+                class="img-fluid"
+                style="border-radius: 1%; max-width: 100%;"
                 alt="Responsive image"
               />
             </div>
           </div>
         </figcaption>
+      </figure>
       </div>
       <div class="container">
-        <figure class="figure">
+        <figure class="figure, text-center">
           <h4>Rózsák ládában</h4>
           <img
             src="img/rozsa.png"
-            class="img-thumbnail"
+            style="border-radius: 1%; max-width: 100%;"
             alt="Responsive image"
           />
         <figcaption class="figure-caption">
           <p>
             <a
-              class="btn btn-primary"
               data-toggle="collapse"
               href="#collapseRozsa"
-              role="button"
               aria-expanded="false"
               aria-controls="collapseRozsa"
-              style="background-color: #541b01"
+              style="color: #541b01"
             >
-              Részletek
+            <i class="material-icons">&#xe5d3;</i>
             </a>
           </p>
           <div class="collapse" id="collapseRozsa">
@@ -89,7 +89,7 @@
               (47x93 cm)
               <img
                 src="img/rozsa_r.png"
-                class="img-thumbnail"
+                style="border-radius: 1%; max-width: 100%;"
                 alt="Responsive image"
               />
             </div>
