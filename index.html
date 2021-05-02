@@ -1,516 +1,951 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Gitta Patchwork</title>
-    <!-- Bootstrap -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
-      crossorigin="anonymous"
-    />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="styles.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Gitta Patchwork</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="styles.css" rel="stylesheet">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
+</head>
 
-  <body>
-    <div class="container">
-      <div class="page-header">
-        <h1>Üdvözlünk ezen a virtuális patchwork kiállításon! 
-          <a href="https://www.facebook.com/gitta.szilagyi" class="pull-right"><i class="fa">&#xf082;</i></a>
-        </h1>
-        <!--  TODO: implement a dropdown menu with a list of individual works. -->
-        <!--  TODO: implement a share option. -->
-
-        <p>Itt tekinthető meg a egy helyen a legnagyobb kollekció Szilágyi Gitta munkáiból. 
-          A három pöttyre kattintva megnyithatod a részleket egy-egy darabról.
-          A jobb felső sarokban található "f" ikonra kattintva pedig kapcsolatba léphetsz a készítővel.
-          <p>Kellemes nézelődést kívánunk!</p>
-        </p>
-        <p>
-          Gitta és Mara
-        </p>
-      </div>
-
+<body>
   <div class="container">
-    <figure class="figure text-center">
-        <h3>A kagyló színe</h3>
-        <img
-          class="figure-img, img-fluid"
-          src="img/a_kagylo_szinine/main.JPG"
-        />
-      <figcaption class="figure-caption text-center">
-        <p>
-          <a
-            data-toggle="collapse"
-            href="#collapseKagy"
-            aria-expanded="false"
-            aria-controls="collapseKagy"
-          >
-          <i class="material-icons">&#xe5d3;</i>
-          </a>
-        </p>
-        <div class="collapse" id="collapseKagy">
-          <div class="card card-body">
-            <img
-              src="img/a_kagylo_szinine/details.JPG"
-              class="img-fluid"
-            />
-          </div>
-        </div>
-      </figcaption>
-    </figure>
-    </div>
+    <div class="page-header">
+      <h1>Üdvözlünk ezen a virtuális patchwork kiállításon!
+        <a href="https://www.facebook.com/gitta.szilagyi" class="pull-right"><i class="fa">&#xf082;</i></a>
+      </h1>
+      <!--  TODO: implement a dropdown menu with a list of individual works. -->
+      <!--  TODO: implement a share option. -->
 
-  <div class="container">
-    <figure class="figure text-center">
-        <h3>Alföldi tanyák</h3>
-        <img
-          class="figure-img, img-fluid"
-          src="img/alfoldi_tanyak/main.JPG"
-        />
-      <figcaption class="figure-caption text-center">
-        <p>
-          <a
-            data-toggle="collapse"
-            href="#collapseTanya"
-            aria-expanded="false"
-            aria-controls="collapseTanya"
-          >
-          <i class="material-icons">&#xe5d3;</i>
-          </a>
-        </p>
-        <div class="collapse" id="collapseTanya">
-          <div class="card card-body">
-            <img
-              src="img/alfoldi_tanyak/details.JPG"
-              class="img-fluid"
-            />
-          </div>
-        </div>
-      </figcaption>
-    </figure>
+      <p>Itt tekinthető meg a egy helyen a legnagyobb kollekció Szilágyi Gitta munkáiból.
+        A három pöttyre kattintva megnyithatod a részleket egy-egy darabról.
+        A jobb felső sarokban található "f" ikonra kattintva pedig kapcsolatba léphetsz a készítővel.
+      <p>Kellemes nézelődést kívánunk!</p>
+      </p>
+      <p>
+        Gitta és Mara
+      </p>
     </div>
 
     <div class="container">
       <figure class="figure text-center">
-          <h3>Aquarell virágos I</h3>
-          <img
-            class="figure-img, img-fluid"
-            src="img/aquarell_viragos_I/main.JPG"
-          />
+        <h3>A kagyló színe</h3>
+        <img class="figure-img, img-fluid" src="img/a_kagylo_szinine/main.JPG" />
         <figcaption class="figure-caption text-center">
           <p>
-            <a
-              data-toggle="collapse"
-              href="#collapseAqaI"
-              aria-expanded="false"
-              aria-controls="collapseAqaI"
-            >
-            <i class="material-icons">&#xe5d3;</i>
+            <a data-toggle="collapse" href="#collapseKagy" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseKagy">
+            <div class="card card-body">
+              <img src="img/a_kagylo_szinine/details.JPG" class="img-fluid" />
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="container">
+      <figure class="figure text-center">
+        <h3>Alföldi tanyák</h3>
+        <img class="figure-img, img-fluid" src="img/alfoldi_tanyak/main.JPG" />
+        <figcaption class="figure-caption text-center">
+          <p>
+            <a data-toggle="collapse" href="#collapseTanya" aria-expanded="false" aria-controls="collapseTanya">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseTanya">
+            <div class="card card-body">
+              <img src="img/alfoldi_tanyak/details.JPG" class="img-fluid" />
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="container">
+      <figure class="figure text-center">
+        <h3>Aquarell virágos I</h3>
+        <img class="figure-img, img-fluid" src="img/aquarell_viragos_I/main.JPG" />
+        <figcaption class="figure-caption text-center">
+          <p>
+            <a data-toggle="collapse" href="#collapseAqaI" aria-expanded="false" aria-controls="collapseAqaI">
+              <i class="material-icons">&#xe5d3;</i>
             </a>
           </p>
           <div class="collapse" id="collapseAqaI">
             <div class="card card-body">
-              <img
-                src="img/aquarell_viragos_I/details.JPG"
-                class="img-fluid"
-              />
+              <img src="img/aquarell_viragos_I/details.JPG" class="img-fluid" />
             </div>
           </div>
         </figcaption>
       </figure>
-      </div>
-
-      <div class="container">
-        <figure class="figure text-center">
-            <h3>Aquarell virágos II</h3>
-            <img
-              class="figure-img, img-fluid"
-              src="img/aquarell_viragos_II/main.JPG"
-            />
-          <figcaption class="figure-caption text-center">
-            <p>
-              <a
-                data-toggle="collapse"
-                href="#collapseAqaII"
-                aria-expanded="false"
-                aria-controls="collapseAqaII"
-              >
-              <i class="material-icons">&#xe5d3;</i>
-              </a>
-            </p>
-            <div class="collapse" id="collapseAqaII">
-              <div class="card card-body">
-                <img
-                  src="img/aquarell_viragos_II/details.JPG"
-                  class="img-fluid"
-                />
-              </div>
-            </div>
-          </figcaption>
-        </figure>
-        </div>
-
-      <div class="container">
-        <figure class="figure text-center">
-            <h3>Aquarell virágos III</h3>
-            <img
-              class="figure-img, img-fluid"
-              src="img/aquarell_viragos_III/main.JPG"
-            />
-          <figcaption class="figure-caption text-center">
-            <p>
-              <a
-                data-toggle="collapse"
-                href="#collapseAqaIII"
-                aria-expanded="false"
-                aria-controls="collapseAqaIII"
-              >
-              <i class="material-icons">&#xe5d3;</i>
-              </a>
-            </p>
-            <div class="collapse" id="collapseAqaIII">
-              <div class="card card-body">
-                <img
-                  src="img/aquarell_viragos_III/details.JPG"
-                  class="img-fluid"
-                />
-              </div>
-            </div>
-          </figcaption>
-        </figure>
-        </div>
-    
-<div class="container">
-  <figure class="figure text-center">
-      <h3>Bolondgombok</h3>
-      <img
-        class="figure-img, img-fluid"
-        src="img/bolondgombok/main.JPG"
-      />
-    <figcaption class="figure-caption text-center">
-      <p>
-        <a
-          data-toggle="collapse"
-          href="#collapseBolond"
-          aria-expanded="false"
-          aria-controls="collapseBolond"
-        >
-        <i class="material-icons">&#xe5d3;</i>
-        </a>
-      </p>
-      <div class="collapse" id="collapseBolond">
-        <div class="card card-body">
-          <img
-            src="img/bolondgombok/details.JPG"
-            class="img-fluid"
-          />
-        </div>
-      </div>
-    </figcaption>
-  </figure>
-  </div>
-
-<div class="container">
-  <figure class="figure text-center">
-      <h3>Bolondos virágoskert - Eltévedtem a parkban</h3>
-      <img
-        class="figure-img, img-fluid"
-        src="img/bolondos_viragoskert/main.JPG"
-      />
-    <figcaption class="figure-caption text-center">
-      <p>
-        <a
-          data-toggle="collapse"
-          href="#collapseBolondos"
-          aria-expanded="false"
-          aria-controls="collapseBolondos"
-        >
-        <i class="material-icons">&#xe5d3;</i>
-        </a>
-      </p>
-      <div class="collapse" id="collapseBolondos">
-        <div class="card card-body">
-          <img
-            src="img/bolondos_viragoskert/details.JPG"
-            class="img-fluid"
-          />
-        </div>
-      </div>
-    </figcaption>
-  </figure>
-  </div>
-    
-  <div class="container">
-    <figure class="figure text-center">
-        <h3>Bordó-zöld flanell takaró</h3>
-        <img
-          class="figure-img, img-fluid"
-          src="img/bordo_zold/main.JPG"
-        />
-      <figcaption class="figure-caption text-center">
-        <p>
-          <a
-            data-toggle="collapse"
-            href="#collapseBordo"
-            aria-expanded="false"
-            aria-controls="collapseBordo"
-          >
-          <i class="material-icons">&#xe5d3;</i>
-          </a>
-        </p>
-        <div class="collapse" id="collapseBordo">
-          <div class="card card-body">
-            <img
-              src="img/bordo_zold/details.JPG"
-              class="img-fluid"
-            />
-          </div>
-        </div>
-      </figcaption>
-    </figure>
     </div>
 
     <div class="container">
       <figure class="figure text-center">
-          <h3>Country Crazy</h3>
-          <img
-            class="figure-img, img-fluid"
-            src="img/country_crazy/main.JPG"
-          />
+        <h3>Aquarell virágos II</h3>
+        <img class="figure-img, img-fluid" src="img/aquarell_viragos_II/main.JPG" />
         <figcaption class="figure-caption text-center">
           <p>
-            <a
-              data-toggle="collapse"
-              href="#collapseCrazy"
-              aria-expanded="false"
-              aria-controls="collapseCrazy"
-            >
-            <i class="material-icons">&#xe5d3;</i>
+            <a data-toggle="collapse" href="#collapseAqaII" aria-expanded="false" aria-controls="collapseAqaII">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseAqaII">
+            <div class="card card-body">
+              <img src="img/aquarell_viragos_II/details.JPG" class="img-fluid" />
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="container">
+      <figure class="figure text-center">
+        <h3>Aquarell virágos III</h3>
+        <img class="figure-img, img-fluid" src="img/aquarell_viragos_III/main.JPG" />
+        <figcaption class="figure-caption text-center">
+          <p>
+            <a data-toggle="collapse" href="#collapseAqaIII" aria-expanded="false" aria-controls="collapseAqaIII">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseAqaIII">
+            <div class="card card-body">
+              <img src="img/aquarell_viragos_III/details.JPG" class="img-fluid" />
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="container">
+      <figure class="figure text-center">
+        <h3>Bolondgombok</h3>
+        <img class="figure-img, img-fluid" src="img/bolondgombok/main.JPG" />
+        <figcaption class="figure-caption text-center">
+          <p>
+            <a data-toggle="collapse" href="#collapseBolond" aria-expanded="false" aria-controls="collapseBolond">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseBolond">
+            <div class="card card-body">
+              <img src="img/bolondgombok/details.JPG" class="img-fluid" />
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="container">
+      <figure class="figure text-center">
+        <h3>Bolondos virágoskert - Eltévedtem a parkban</h3>
+        <img class="figure-img, img-fluid" src="img/bolondos_viragoskert/main.JPG" />
+        <figcaption class="figure-caption text-center">
+          <p>
+            <a data-toggle="collapse" href="#collapseBolondos" aria-expanded="false" aria-controls="collapseBolondos">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseBolondos">
+            <div class="card card-body">
+              <img src="img/bolondos_viragoskert/details.JPG" class="img-fluid" />
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="container">
+      <figure class="figure text-center">
+        <h3>Bordó-zöld flanell takaró</h3>
+        <img class="figure-img, img-fluid" src="img/bordo_zold/main.JPG" />
+        <figcaption class="figure-caption text-center">
+          <p>
+            <a data-toggle="collapse" href="#collapseBordo" aria-expanded="false" aria-controls="collapseBordo">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseBordo">
+            <div class="card card-body">
+              <img src="img/bordo_zold/details.JPG" class="img-fluid" />
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="container">
+      <figure class="figure text-center">
+        <h3>Country Crazy</h3>
+        <img class="figure-img, img-fluid" src="img/country_crazy/main.JPG" />
+        <figcaption class="figure-caption text-center">
+          <p>
+            <a data-toggle="collapse" href="#collapseCrazy" aria-expanded="false" aria-controls="collapseCrazy">
+              <i class="material-icons">&#xe5d3;</i>
             </a>
           </p>
           <div class="collapse" id="collapseCrazy">
             <div class="card card-body">
-              <img
-                src="img/country_crazy/details.JPG"
-                class="img-fluid"
-              />
+              <img src="img/country_crazy/details.JPG" class="img-fluid" />
             </div>
           </div>
         </figcaption>
       </figure>
-      </div>
+    </div>
 
     <div class="container">
       <figure class="figure text-center">
-          <h3>Csupa maradék</h3>
-          <img
-            class="figure-img, img-fluid"
-            src="img/csupa_maradek/main.JPG"
-          />
+        <h3>Csupa maradék</h3>
+        <img class="figure-img, img-fluid" src="img/csupa_maradek/main.JPG" />
         <figcaption class="figure-caption text-center">
           <p>
-            <a
-              data-toggle="collapse"
-              href="#collapseCountry"
-              aria-expanded="false"
-              aria-controls="collapseCrazy"
-            >
-            <i class="material-icons">&#xe5d3;</i>
+            <a data-toggle="collapse" href="#collapseCountry" aria-expanded="false" aria-controls="collapseCrazy">
+              <i class="material-icons">&#xe5d3;</i>
             </a>
           </p>
           <div class="collapse" id="collapseCountry">
             <div class="card card-body">
-              <img
-                src="img/csupa_maradek/details.JPG"
-                class="img-fluid"
-              />
+              <img src="img/csupa_maradek/details.JPG" class="img-fluid" />
             </div>
           </div>
         </figcaption>
       </figure>
-      </div>
+    </div>
 
     <div class="container">
       <figure class="figure text-center">
-          <h3>Emma takarója</h3>
-          <img
-            class="figure-img, img-fluid"
-            src="img/emma_takaroja/main.JPG"
-          />
+        <h3>Emma takarója</h3>
+        <img class="figure-img, img-fluid" src="img/emma_takaroja/main.JPG" />
         <figcaption class="figure-caption text-center">
           <p>
-            <a
-              data-toggle="collapse"
-              href="#collapseEmma"
-              aria-expanded="false"
-              aria-controls="collapseEmma"
-            >
-            <i class="material-icons">&#xe5d3;</i>
+            <a data-toggle="collapse" href="#collapseEmma" aria-expanded="false" aria-controls="collapseEmma">
+              <i class="material-icons">&#xe5d3;</i>
             </a>
           </p>
           <div class="collapse" id="collapseEmma">
             <div class="card card-body">
               (64x80 cm)
-              <img
-                src="img/emma_takaroja/details.JPG"
-                class="img-fluid"
-              />
+              <img src="img/emma_takaroja/details.JPG" class="img-fluid" />
             </div>
           </div>
         </figcaption>
       </figure>
-      </div>
+    </div>
 
-      <div class="container">
+    <div class="container">
       <figure class="figure text-center">
-          <h3>Fenyőerdő éjszaka</h3>
-          <img
-            class="figure-img, img-fluid"
-            src="img/fenyoerdo_ejszaka/main.JPG"
-          />
+        <h3>Fenyőerdő éjszaka</h3>
+        <img class="figure-img, img-fluid" src="img/fenyoerdo_ejszaka/main.JPG" />
         <figcaption class="figure-caption text-center">
           <p>
-            <a
-              data-toggle="collapse"
-              href="#collapseKari"
-              aria-expanded="false"
-              aria-controls="collapseKari"
-            >
-            <i class="material-icons">&#xe5d3;</i>
+            <a data-toggle="collapse" href="#collapseKari" aria-expanded="false" aria-controls="collapseKari">
+              <i class="material-icons">&#xe5d3;</i>
             </a>
           </p>
           <div class="collapse" id="collapseKari">
             <div class="card card-body">
               (64x80 cm)
-              <img
-                src="img/fenyoerdo_ejszaka/details.JPG"
-                class="img-fluid"
-              />
+              <img src="img/fenyoerdo_ejszaka/details.JPG" class="img-fluid" />
             </div>
           </div>
         </figcaption>
       </figure>
-      </div>
+    </div>
 
-      <div class="container">
-        <figure class="figure text-center">
-            <h3>Festett íriszek narancs keretben</h3>
-            <img
-              class="figure-img, img-fluid"
-              src="img/festett_iriszek/main.JPG"
-            />
-          <figcaption class="figure-caption text-center">
-            <p>
-              <a
-                data-toggle="collapse"
-                href="#collapseIrisz"
-                aria-expanded="false"
-                aria-controls="collapseIrisz"
-              >
-              <i class="material-icons">&#xe5d3;</i>
-              </a>
-            </p>
-            <div class="collapse" id="collapseIrisz">
-              <div class="card card-body">
-                (64x80 cm)
-                <img
-                  src="img/festett_iriszek/details.JPG"
-                  class="img-fluid"
-                />
-              </div>
-            </div>
-          </figcaption>
-        </figure>
-        </div>
-      
-      <div class="container">
-        <figure class="figure, text-center">
-          <h3>Rita rózsás képe</h3>
-          <img
-            src="img/rita_rozsas/main.JPG"
-            alt="Responsive image"
-          />
-        <figcaption class="figure-caption">
+    <div class="container">
+      <figure class="figure text-center">
+        <h3>Festett íriszek narancs keretben</h3>
+        <img class="figure-img, img-fluid" src="img/festett_iriszek/main.JPG" />
+        <figcaption class="figure-caption text-center">
           <p>
-            <a
-              data-toggle="collapse"
-              href="#collapseRozsa"
-              aria-expanded="false"
-              aria-controls="collapseRozsa"
-            >
-            <i class="material-icons">&#xe5d3;</i>
+            <a data-toggle="collapse" href="#collapseIrisz" aria-expanded="false" aria-controls="collapseIrisz">
+              <i class="material-icons">&#xe5d3;</i>
             </a>
           </p>
-          <div class="collapse" id="collapseRozsa">
+          <div class="collapse" id="collapseIrisz">
             <div class="card card-body">
-              (47x93 cm)
-              <img
-                src="img/rita_rozsas/details.JPG"
-                alt="Responsive image"
-              />
+              <img src="img/festett_iriszek/details.JPG" class="img-fluid" />
             </div>
           </div>
         </figcaption>
-      </div>
-      <h1></h1>
+      </figure>
     </div>
 
-  </div>
-  <div class="container">
-    <figure class="figure, text-center">
-      <h3>Kelta Terítő</h3>
-      <img
-        src="img/kelta_terito/main.JPG"
-        alt="Responsive image"
-      />
-    <figcaption class="figure-caption">
-      <p>
-        <a
-          data-toggle="collapse"
-          href="#collapseKeltaterito"
-          aria-expanded="false"
-          aria-controls="collapseKeltaterito"
-        >
-        <i class="material-icons">&#xe5d3;</i>
-        </a>
-      </p>
-      <div class="collapse" id="collapseKeltaterito">
-        <div class="card card-body">
-          <img
-            src="img/kelta_terito/details.JPG"
-            alt="Responsive image"
-          />
-        </div>
-      </div>
-    </figcaption>
-  </div>
-  <h1></h1>
-</div>
+    <div class="container">
+      <figure class="figure text-center">
+        <h3>Gyűrűs falikép</h3>
+        <img class="figure-img, img-fluid" src="img/gyurus_falikep/main.JPG" />
+        <figcaption class="figure-caption text-center">
+          <p>
+            <a data-toggle="collapse" href="#collapseGyurus" aria-expanded="false" aria-controls="collapseGyurus">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseGyurus">
+            <div class="card card-body">
+              <img src="img/gyurus_falikep/details.JPG" class="img-fluid" />
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script
-      src="https://code.jquery.com/jquery-1.12.4.min.js"
-      integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
-      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <div class="container">
+      <figure class="figure text-center">
+        <h3>Három orgona</h3>
+        <img class="figure-img, img-fluid" src="img/harom_orgona/main.JPG" />
+      </figure>
+    </div>
+
+    <div class="container">
+      <figure class="figure text-center">
+        <h3>Hópehely arany kövekkel</h3>
+        <img class="figure-img, img-fluid" src="img/hopehely/main.JPG" />
+        <figcaption class="figure-caption text-center">
+          <p>
+            <a data-toggle="collapse" href="#collapseHo" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseHo">
+            <div class="card card-body">
+              <img src="img/hopehely/details.JPG" class="img-fluid" />
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="container">
+      <figure class="figure text-center">
+        <h3>Ikszek barnábana</h3>
+        <img class="figure-img, img-fluid" src="img/ikszek_barnaban/main.JPG" />
+        <figcaption class="figure-caption text-center">
+          <p>
+            <a data-toggle="collapse" href="#collapseIksz" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseIksz">
+            <div class="card card-body">
+              <img src="img/ikszek_barnaban/details.JPG" class="img-fluid" />
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="container">
+      <figure class="figure text-center">
+        <h3>Imaszőnyeg</h3>
+        <img class="figure-img, img-fluid" src="img/imaszonyeg/main.JPG" />
+        <figcaption class="figure-caption text-center">
+          <p>
+            <a data-toggle="collapse" href="#collapseIma" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseIma">
+            <div class="card card-body">
+              <img src="img/imaszonyeg/details.JPG" class="img-fluid" />
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="container">
+      <figure class="figure text-center">
+        <h3>Kelta mintás kék terítő</h3>
+        <img class="figure-img, img-fluid" src="img/kelta_mintas_kek/main.JPG" />
+        <figcaption class="figure-caption text-center">
+          <p>
+            <a data-toggle="collapse" href="#collapseKeltakek" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseKeltakek">
+            <div class="card card-body">
+              <img src="img/kelta_mintas_kek/details.JPG" class="img-fluid" />
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="container">
+      <figure class="figure text-center">
+        <h3>Kereszt házikókkala</h3>
+        <img class="figure-img, img-fluid" src="img/kereszt_hazikokkal/main.JPG" />
+        <figcaption class="figure-caption text-center">
+          <p>
+            <a data-toggle="collapse" href="#collapseKereszt" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseKereszt">
+            <div class="card card-body">
+              <img src="img/kereszt_hazikokkal/details.JPG" class="img-fluid" />
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="container">
+      <figure class="figure text-center">
+        <h3>Kis szélforgós</h3>
+        <img class="figure-img, img-fluid" src="img/kis_szelforgos/main.JPG" />
+        <figcaption class="figure-caption text-center">
+          <p>
+            <a data-toggle="collapse" href="#collapseKisSz" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseKisSz">
+            <div class="card card-body">
+              <img src="img/kis_szelforgos/details.JPG" class="img-fluid" />
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="container">
+      <figure class="figure text-center">
+        <h3>Korak I</h3>
+        <img class="figure-img, img-fluid" src="img/korak_I/main.JPG" />
+        <figcaption class="figure-caption text-center">
+          <p>
+            <a data-toggle="collapse" href="#collapseKorakI" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseKorakI">
+            <div class="card card-body">
+              <img src="img/korak_I/details.JPG" class="img-fluid" />
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="container">
+      <figure class="figure text-center">
+        <h3>Korak, kék-narancs</h3>
+        <img class="figure-img, img-fluid" src="img/korak_kek_narancs/main.JPG" />
+      </figure>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Korak, ég és föld</h3>
+        <img src="img/korak_eg_es_fold/main.jpg" />
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Korak, fekete-sárga</h3>
+        <img src="img/korak_fekete_sarga/main.JPG" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapseFS" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseFS">
+            <div class="card card-body">
+              <img src="img/korak_fekete_sarga/detals.JPG" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Korak, kis sárga</h3>
+        <img src="img/korak_kis_sarga/main.JPG" />
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Lila katedrális</h3>
+        <img src="img/lila_katedralis/main.JPG" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapseLila" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseLila">
+            <div class="card card-body">
+              <img src="img/lila_katedralis/details.JPG" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Madárfészkes takaró</h3>
+        <img src="img/madarfeszkes_takaro/main.JPG" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapseMadarf" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseMadarf">
+            <div class="card card-body">
+              <img src="img/madarfeszkes_takaro/details.JPG" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Mikulásvirág üvegablak</h3>
+        <img src="img/mikulasvirag_uvegablak/main.JPG" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapseMiku" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseMiku">
+            <div class="card card-body">
+              <img src="img/mikulasvirag_uvegablak/details.JPG" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Nagy juharleveles</h3>
+        <img src="img/nagy_juharleveles/main.JPG" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapseNagyJ" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseNagyJ">
+            <div class="card card-body">
+              <img src="img/nagy_juharleveles/details.JPG" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Napvirág</h3>
+        <img src="img/napvirag/main.JPG" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapseNap" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseNap">
+            <div class="card card-body">
+              <img src="img/napvirag/details.JPG" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Narancs virágos háló</h3>
+        <img src="img/narancs_viragos/main.JPG" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapseNara" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseNara">
+            <div class="card card-body">
+              <img src="img/narancs_viragos/details.JPG" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Négy platánlevél</h3>
+        <img src="img/negy_palantalevel/main.JPG" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapseNegyP" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseNegyP">
+            <div class="card card-body">
+              <img src="img/negy_palantalevel/details.JPG" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Négy sárga szegfű</h3>
+        <img src="img/negy_sarga_szegfu/main.JPG" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapseNegyS" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseNegyS">
+            <div class="card card-body">
+              <img src="img/negy_sarga_szegfu/details.JPG" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Négyzetek négyzetekben</h3>
+        <img src="img/negyzetek_negyzetekben/main.JPG" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapseNegyzet" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseNegyzet">
+            <div class="card card-body">
+              <img src="img/negyzetek_negyzetekben/details.JPG" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Nóra virágos kertje</h3>
+        <img src="img/nora_viragoskertje/main.JPG" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapseNora" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseNora">
+            <div class="card card-body">
+              <img src="img/nora_viragoskertje/details.JPG" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Op-art szegfű</h3>
+        <img src="img/op_art_szegfu/main.JPG" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapseOpart" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseOpart">
+            <div class="card card-body">
+              <img src="img/op_art_szegfu/details.JPG" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3></h3>
+        <img src="img/" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapse" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapse">
+            <div class="card card-body">
+              <img src="img/" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Orgonavirágzás</h3>
+        <img src="img/orgonaviragzas/main.JPG" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapseOrgonav" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseOrgonav">
+            <div class="card card-body">
+              <img src="img/orgonaviragzas/details.JPG" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Őseim</h3>
+        <img src="img/oseim/main.JPG" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapseOseim" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseOseim">
+            <div class="card card-body">
+              <img src="img/oseim/details.JPG" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Pipacsok fekete keretben</h3>
+        <img src="img/pipacsok_fekete_keretben/main.JPG" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapsePipacsokF" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapsePipacsokF">
+            <div class="card card-body">
+              <img src="img/pipacsok_fekete_keretben/details.JPG" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Pipacsok piros keretben</h3>
+        <img src="img/pipacsok_piros_keretben/main.JPG" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapsePipacsP" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapsePipacsP">
+            <div class="card card-body">
+              <img src="img/pipacsok_piros_keretben/details.JPG" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Rita rózsás képe</h3>
+        <img src="img/rita_rozsas/main.JPG" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapseRitaR" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseRitaR">
+            <div class="card card-body">
+              <img src="img/rita_rozsas/details.JPG" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Rododendron mánia</h3>
+        <img src="img/rododendron_mania/main.JPG" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapseRododendron" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseRododendron">
+            <div class="card card-body">
+              <img src="img/rododendron_mania/details.JPG" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Rózsás apácarács</h3>
+        <img src="img/rozsas_apacaracs/main.JPG" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapseRozsasA" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseRozsasA">
+            <div class="card card-body">
+              <img src="img/rozsas_apacaracs/details.JPG" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Szélmalomkerekek</h3>
+        <img src="img/szelmalomkerekek/main.JPG" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapseSzel" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseSzel">
+            <div class="card card-body">
+              <img src="img/szelmalomkerekek/details.JPG" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Tányéros</h3>
+        <img src="img/tanyeros/main.JPG" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapseTanyer" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseTanyer">
+            <div class="card card-body">
+              <img src="img/tanyeros/details.JPG" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3></h3>
+        <img src="img/" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapse" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapse">
+            <div class="card card-body">
+              <img src="img/" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Trópusi üvegház</h3>
+        <img src="img/tropusi_uveghaz/main.JPG" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapseTropusi" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseTropusi">
+            <div class="card card-body">
+              <img src="img/tropusi_uveghaz/details.JPG" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Tükrös falikép</h3>
+        <img src="img/tukros_falikep/main.JPG" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapseTukros" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseTukros">
+            <div class="card card-body">
+              <img src="img/tropusi_uveghaz/details.JPG" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <div class="container">
+      <figure class="figure, text-center">
+        <h3>Virágos négyzetrács</h3>
+        <img src="img/viragos_negyzetracs/main.JPG" />
+        <figcaption class="figure-caption">
+          <p>
+            <a data-toggle="collapse" href="#collapseVir" aria-expanded="false">
+              <i class="material-icons">&#xe5d3;</i>
+            </a>
+          </p>
+          <div class="collapse" id="collapseVir">
+            <div class="card card-body">
+              <img src="img/viragos_negyzetracs/details.JPG" />
+            </div>
+          </div>
+        </figcaption>
+    </div>
+
+    <h1></h1>
+  </div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+    crossorigin="anonymous"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+    integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
